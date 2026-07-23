@@ -103,6 +103,21 @@ pred_new = regressor.predict(new_hours)
 print("\nPredictions for new hours", new_hours.flatten(), "=>", np.round(pred_new,2))
 ```
 ## Output:
+
+# Load dataset
+
+<img width="367" height="372" alt="image" src="https://github.com/user-attachments/assets/65a5bf0f-41b6-4945-aaee-93006c5ec426" />
+
+# Prepare input (X) and output (Y)
+
+<img width="927" height="98" alt="image" src="https://github.com/user-attachments/assets/a97d0e13-eab5-4741-ba78-514d4f96c772" />
+
+
+# Split data into training and testing sets
+
+<img width="497" height="50" alt="image" src="https://github.com/user-attachments/assets/25b6bad8-8446-4c83-b74f-4ab31bd14274" />
+
+
 # Create and train the model
 
 <img width="372" height="101" alt="image" src="https://github.com/user-attachments/assets/83a87131-700a-4514-a08c-465a515fafc7" />
